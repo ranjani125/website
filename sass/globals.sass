@@ -145,4 +145,37 @@ main
             @media screen and (prefers-color-scheme: dark)
                 color: $font-color-dark
 
+footer
+    margin: 2rem -33vw 0 -33vw
+    padding: 2rem
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    gap: 3rem
+
+
+    a
+        text-align: center
+
+        i
+            border-radius: 50%
+            padding: 1rem
+            font-size: 1.5rem
+
+            &:hover
+                background-color: #ccc
+                transition: background-color .5s ease-in-out
+
+            @media screen and (prefers-color-scheme: light)
+                background-color: #031a2b
+            @media screen and (prefers-color-scheme: dark) 
+                background-color: #222
+
+    @media screen and (prefers-color-scheme: light)
+        background-color: #031a2b
+    @media screen and (prefers-color-scheme: dark)
+        background-color: #111
+
 @import grid

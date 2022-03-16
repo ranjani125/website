@@ -1,14 +1,7 @@
 import React from "react";
 
 import NewBanner from "./NewBanner.jsx";
-import CardGrid from "./CardGrid.jsx";
 import ScrollToTop from "./ScrollToTop.jsx";
-import { Link } from "react-router-dom";
-
-import researchInterests from "../src/research_interests.jsx";
-import contacts from "../src/contacts.jsx";
-import projects from "../src/projects.jsx";
-import resumeCards from "../src/resumeCards.jsx";
 
 export default class MainPage extends React.Component {
     constructor(props) {
@@ -50,6 +43,13 @@ export default class MainPage extends React.Component {
                         </div>
                     </div>
                 </main>
+                <footer>
+                    <div>
+                        <a href="https://www.linkedin.com/in/ranjani-iyer/"><i className="fab fa-linkedin"></i></a>
+                        <a href="mailto:ranjani125@gmail.com"><i className="fa fa-envelope"></i></a>
+                        <a href="https://github.com/ranjani125/ranjani125.github.io/blob/main/resume.pdf"><i className="fa fa-file-alt"></i></a>
+                    </div>
+                </footer>
             </div>
         );
     }

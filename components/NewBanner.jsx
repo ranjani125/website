@@ -5,7 +5,7 @@ export default class NewBanner extends React.Component {
         return (
             <div id="top">
                 <div className="heading">
-                    Ranjani | Ramanathan
+                    Ranjani <span style={{ color: "#5594c0" }}>Ramanathan</span>
                 </div>
             </div>
         );
