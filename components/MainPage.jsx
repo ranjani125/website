@@ -44,11 +44,10 @@ export default class MainPage extends React.Component {
                     </div>
                 </main>
                 <footer>
-                    <div>
-                        <a href="https://www.linkedin.com/in/ranjani-iyer/"><i className="fab fa-linkedin"></i></a>
-                        <a href="mailto:ranjani125@gmail.com"><i className="fa fa-envelope"></i></a>
-                        <a href="https://github.com/ranjani125/ranjani125.github.io/blob/main/resume.pdf"><i className="fa fa-file-alt"></i></a>
-                    </div>
+                    <a href="https://www.linkedin.com/in/ranjani-iyer/"><i className="fab fa-linkedin"></i></a>
+                    <a href="mailto:ranjani125@gmail.com"><i className="fa fa-envelope"></i></a>
+                    <a href="https://github.com/ranjani125/ranjani125.github.io/blob/main/resume.pdf"><i className="fa fa-file-alt"></i></a>
+                    <a href="https://scholar.google.com/citations?user=d7HqEBcAAAAJ&hl=en&oi=ao"><i className="fab fa-google"></i></a>
                 </footer>
             </div>
         );
